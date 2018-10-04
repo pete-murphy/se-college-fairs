@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/se-college-fairs/precache-manifest.8348fbb3b2918568d6fc522d57130e5f.js"
+  "/se-college-fairs/precache-manifest.5bc329e0a30d44364d50167bffc4c6f6.js"
 );
 
 workbox.clientsClaim();
