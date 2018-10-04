@@ -35,6 +35,20 @@ a {
   padding: 0 2rem;
 }
 
+@media only screen 
+  and (max-width: 720px) {
+   #root {
+     grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media only screen 
+  and (max-width: 600px) {
+   #root {
+     grid-template-columns: 1fr;
+   }
+}
+
 ul {
   list-style: none;
   padding: 0;

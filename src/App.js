@@ -49,6 +49,10 @@ class App extends Component {
           }
           total={data.length}
         />
+        <div>
+          <span className="red">*</span> Double check the
+          actual times on website 😉
+        </div>
       </Container>,
       <Container>
         <List
