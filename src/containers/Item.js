@@ -12,14 +12,13 @@ export default ({
   }
 }) => (
   <li>
+    <h2>{formatted}</h2>
     <h3>{event}</h3>
-    <h4>{location}</h4>
+    {location !== "Not specified" && <h4>{location}</h4>}
     <div>
       {city}, {state}
     </div>
-    <div>
-      {formatted}, {time}
-    </div>
+    <div>{time}*</div>
     <div>
       Source: <a href={sourceURL}>{sourceLabel}</a>{" "}
     </div>
