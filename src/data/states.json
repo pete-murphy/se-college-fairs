@@ -1,0 +1,54 @@
+[
+  {
+    "value": "Alabama",
+    "label": "Alabama"
+  },
+  {
+    "value": "Arkansas",
+    "label": "Arkansas"
+  },
+  {
+    "value": "Florida",
+    "label": "Florida"
+  },
+  {
+    "value": "Georgia",
+    "label": "Georgia"
+  },
+  {
+    "value": "Kentucky",
+    "label": "Kentucky"
+  },
+  {
+    "value": "Maryland",
+    "label": "Maryland"
+  },
+  {
+    "value": "Louisiana",
+    "label": "Louisiana"
+  },
+  {
+    "value": "Mississippi",
+    "label": "Mississippi"
+  },
+  {
+    "value": "North Carolina",
+    "label": "North Carolina"
+  },
+  {
+    "value": "South Carolina",
+    "label": "South Carolina"
+  },
+  {
+    "value": "Tennessee",
+    "label": "Tennessee"
+  },
+  {
+    "value": "Virginia",
+    "label": "Virginia"
+  },
+  {
+    "value": "West Virginia",
+    "label": "West Virginia"
+  }
+]

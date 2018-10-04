@@ -1,0 +1,162 @@
+[
+  {
+    "date": {
+      "parsed": "2018-10-03T14:00:00.000Z",
+      "formatted": "October 3, 2018",
+      "raw": "October 3, 2018",
+      "rawTime": "9:00AM",
+      "time": "10:00 AM"
+    },
+    "key": 0,
+    "event": "NACAC Baton Rouge College Fair",
+    "location": "Raising Cane's River Center :",
+    "city": "Baton Rouge",
+    "state": "Louisiana",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 30.45075,
+      "lon": -91.15455
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-04T13:00:00.000Z",
+      "formatted": "October 4, 2018",
+      "raw": "October 4, 2018",
+      "rawTime": "8:00AM",
+      "time": "9:00 AM"
+    },
+    "key": 1,
+    "event": "Woodlawn College Fair",
+    "location": "Woodlawn High School :",
+    "city": "Baton Rouge",
+    "state": "Louisiana",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 30.45075,
+      "lon": -91.15455
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-09T14:00:00.000Z",
+      "formatted": "October 9, 2018",
+      "raw": "October 9, 2018",
+      "rawTime": "9:00AM",
+      "time": "10:00 AM"
+    },
+    "key": 2,
+    "event": "Mississippi School of the Arts College Fair",
+    "location": "Mississippi School of the Arts :",
+    "city": "Brookhaven",
+    "state": "Mississippi",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 31.57906,
+      "lon": -90.44065
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-11T18:00:00.000Z",
+      "formatted": "October 11, 2018",
+      "raw": "October 11, 2018",
+      "rawTime": "1:00PM",
+      "time": "2:00 PM"
+    },
+    "key": 3,
+    "event": "Hattiesburg HS College Fair",
+    "location": "Hattiesburg High School :",
+    "city": "Hattiesburg",
+    "state": "Mississippi",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 31.32712,
+      "lon": -89.29034
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-11T23:00:00.000Z",
+      "formatted": "October 11, 2018",
+      "raw": "October 11, 2018",
+      "rawTime": "6:00PM",
+      "time": "7:00 PM"
+    },
+    "key": 4,
+    "event": "Oak Grove College Fair",
+    "location": "Oak Grove High School :",
+    "city": "Hattiesburg",
+    "state": "Mississippi",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 31.32712,
+      "lon": -89.29034
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-12T13:30:00.000Z",
+      "formatted": "October 12, 2018",
+      "raw": "October 12, 2018",
+      "rawTime": "8:30AM",
+      "time": "9:30 AM"
+    },
+    "key": 5,
+    "event": "Pass Christian College Fair",
+    "location": "Pass Christian High School :",
+    "city": "Pass Christian",
+    "state": "Mississippi",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 30.31575,
+      "lon": -89.24754
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-24T13:30:00.000Z",
+      "formatted": "October 24, 2018",
+      "raw": "October 24, 2018",
+      "rawTime": "8:30AM",
+      "time": "9:30 AM"
+    },
+    "key": 6,
+    "event": "Caddo Parish College Fair",
+    "location": "Centenary College Gold Dome :",
+    "city": "Shreveport",
+    "state": "Louisiana",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 32.52515,
+      "lon": -93.75018
+    }
+  },
+  {
+    "date": {
+      "parsed": "2018-10-24T23:00:00.000Z",
+      "formatted": "October 24, 2018",
+      "raw": "October 24, 2018",
+      "rawTime": "6:00PM",
+      "time": "7:00 PM"
+    },
+    "key": 7,
+    "event": "Caddo Parish Magnet HS College Fair",
+    "location": "Caddo Parish Magnet High School :",
+    "city": "Shreveport",
+    "state": "Louisiana",
+    "sourceLabel": "Alabama",
+    "sourceURL": "https://gobama.ua.edu/recruiters/samfoster/",
+    "coords": {
+      "lat": 32.52515,
+      "lon": -93.75018
+    }
+  }
+]

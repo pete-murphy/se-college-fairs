@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+/.psc-package
+
+# cache
+/.pulp-cache
 
 # testing
 /coverage
@@ -19,3 +23,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# raw data
+*.raw.*
+*/data/clean.js

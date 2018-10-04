@@ -1,0 +1,16 @@
+{
+  "name": "layni-colleges-react-app",
+  "set": "psc-0.12.0-20180819",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "strings",
+    "lists",
+    "prelude",
+    "string-parsers",
+    "parsing",
+    "effect",
+    "psci-support",
+    "console",
+    "validation"
+  ]
+}
