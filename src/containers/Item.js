@@ -1,8 +1,9 @@
 import React from "react"
+import { format } from "date-fns"
 
 export default ({
   datum: {
-    date: { formatted, time },
+    date: { parsed, formatted, time },
     event,
     location,
     city,
@@ -12,7 +13,10 @@ export default ({
   }
 }) => (
   <li>
-    <h2>{formatted}</h2>
+    <h1>
+      {format(parsed, "MMM")}{" "}
+      <span class="red">{format(parsed, "D")}</span>
+    </h1>
     <h3>{event}</h3>
     {location !== "Not specified" && <h4>{location}</h4>}
     <div>
