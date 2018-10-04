@@ -23,7 +23,7 @@ const sortByProps = (props, list) =>
 export default ({ data, visibilityFilter }) => (
   <ul>
     {visibilityFilter(
-      sortBy(({ date: { formatted } }) => formatted)(data)
+      sortBy(({ date: { parsed } }) => parsed)(data)
     ).map(datum => (
       <Item key={`${datum.key}-I`} datum={datum} />
     ))}
