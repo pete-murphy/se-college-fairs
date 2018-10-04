@@ -1,34 +1,65 @@
 import React, { Component, Fragment } from "react"
 
-import "./App.css"
 import data from "./data/data"
-import states from "./data/states"
+import stateList from "./data/states"
 import List from "./components/List"
 import SelectDate from "./components/SelectDate"
 import SelectState from "./components/SelectState"
 import Container from "./containers/Container"
+import Count from "./containers/Count"
+
+import { visibilityFilter } from "./lib"
 
 class App extends Component {
   state = {
     states: [],
-    dates: [,]
+    dateStart: undefined,
+    dateEnd: undefined,
+    data
   }
+
   handleChange = key => value => {
-    this.setState({ [key]: value })
+    this.setState(() => ({
+      [key]: value
+    }))
   }
+
   render() {
-    return (
+    const { states, dateStart, dateEnd } = this.state
+    return [
       <Container>
-        <SelectDate label="Select a start date" />
-        <SelectDate label="And an end date" />
+        <SelectDate
+          handleChange={this.handleChange("dateStart")}
+          label="Select a start date"
+        />
+        <SelectDate
+          handleChange={this.handleChange("dateEnd")}
+          label="And an end date"
+        />
         <SelectState
           handleChange={this.handleChange("states")}
           label="Select your statez"
-          states={states}
+          states={stateList}
         />
-        <List data={data} />
+        <Count
+          count={
+            visibilityFilter(states, [dateStart, dateEnd])(
+              data
+            ).length
+          }
+          total={data.length}
+        />
+      </Container>,
+      <Container>
+        <List
+          data={this.state.data}
+          visibilityFilter={visibilityFilter(states, [
+            dateStart,
+            dateEnd
+          ])}
+        />
       </Container>
-    )
+    ]
   }
 }
 
