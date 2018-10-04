@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/se-college-fairs/static/js/runtime~main.6db9193c.js"
   },
   {
-    "revision": "a06fdc2f35717888800c",
-    "url": "/se-college-fairs/static/js/main.a06fdc2f.chunk.js"
+    "revision": "16177236b00827e364d0",
+    "url": "/se-college-fairs/static/js/main.16177236.chunk.js"
   },
   {
     "revision": "bc000727dab8d214c580",
     "url": "/se-college-fairs/static/js/1.bc000727.chunk.js"
   },
   {
-    "revision": "a06fdc2f35717888800c",
-    "url": "/se-college-fairs/static/css/main.8f7c3efa.chunk.css"
+    "revision": "16177236b00827e364d0",
+    "url": "/se-college-fairs/static/css/main.820fa0a9.chunk.css"
   },
   {
-    "revision": "1e81a080c518391e4ca73ad8e7a70161",
+    "revision": "c7d172d9f3da36a3e8396f25cb62a8c3",
     "url": "/se-college-fairs/index.html"
   }
 ];
