@@ -27,3 +27,6 @@ yarn-error.log*
 # raw data
 *.raw.*
 */data/clean.js
+
+# PureScript output
+/output
