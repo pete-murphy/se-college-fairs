@@ -1,12 +1,16 @@
-import React, { Fragment } from "react"
+import React from "react"
 import Item from "../containers/Item"
-import { sortBy } from "ramda"
-import parse from "date-fns/parse"
+import { sort } from "ramda"
+import { compareAsc } from "date-fns"
 
 export default ({ data, visibilityFilter }) => (
   <ul>
     {visibilityFilter(
-      sortBy(({ date: { parsed } }) => parse(parsed), data)
+      sort(
+        ({ date: A }, { date: B }) =>
+          compareAsc(A.parsed, B.parsed),
+        data
+      )
     ).map(datum => (
       <Item key={`${datum.key}-I`} datum={datum} />
     ))}

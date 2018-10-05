@@ -30,3 +30,6 @@ yarn-error.log*
 
 # PureScript output
 /output
+
+# playin' 'round
+*playground*

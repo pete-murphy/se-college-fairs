@@ -18,9 +18,9 @@ export default ({
       <span class="red">{format(parsed, "D")}</span>
     </h1>
     <h3>{event}</h3>
-    {location !== "Not specified" && <h4>{location}</h4>}
+    {location && <h4>{location}</h4>}
     <div>
-      {city}, {state}
+      {city && `${city}, `} {state}
     </div>
     <div>{time}*</div>
     <div>
